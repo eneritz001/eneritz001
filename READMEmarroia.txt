@@ -8,4 +8,4 @@
 **
 Marroia konpontzeko 3h gutxi gora behera behar izan ditut. 
 Bideo marroia azalduz:
-https://youtu.be/D20s9YF_vgo
+https://youtu.be/hYCry3QDYgI
