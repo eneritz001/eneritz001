@@ -1,8 +1,9 @@
-- Eneritz Aldecocea Iturriaga
--LEHENENGO ARAZOA
+- *Eneritz Aldecocea Iturriaga*
+-**LEHENENGO ARAZOA**
   - BAI. Lehenengo arazoa konpontzeko ez dut arazorik izan, JComboBox-ak ondo funtzionatzen du eta aukeraketa bat egitean, botoian agertzen da aukeratutako helgaldia. 
--BIGARREN ARAZOA
-  - PARTZIALKI. JComboBox-ean aukeratutako hegaldian ez badago lekurik, jarraian reserbatzeko botoiari emateko aukera bloqueatzen du. Kasu batean ez da horrela gertatzen konpontzen zaiatu nahiz baina ez da konpontzen.
-    Kasu gehienetan ondo funtzionatzen du, beraz seguruenik kasu berezi bat delako ez dit funtzionatzen bestean.
--HIRUGARREN ARAZOA
-  -BAI. Data jartzerako orduan bai urtean edo egunean letraren bat sartzerakoan, eta lookforflights botoari ematerakoan beheko botoian data txarto sartu dela adierazten du. 
+-**BIGARREN ARAZOA**
+  - BAI. JComboBox-ean aukeratutako hegaldian ez badago lekurik, jarraian reserbatzeko botoiari emateko aukera bloqueatzen du eta mezu baten arazoa azaltzen du. Lehenengo aldaketak akats bat zuen, set bi aldiz jarri nuelako eta flightListean bat aukeratzerakoan ticket bat kendu eta erreserbatzerako orduan beste ticket bat kentzen zidan, beraz hegaldi bat reserbatzerakoan bi ticket kopuru erreserbatzen nituen eta honek errorea ematen zitzaidan ticket 1 bakarrik geratzen ziren kasuetan ez zitzaidalako erreserbatzen uzten, beraz itzi beharko zidanean. Orain, arazo hau konponduta, kasu guztietan ondo funtzionatzen du. 
+-**HIRUGARREN ARAZOA**
+  -BAI. Data jartzerako orduan bai urtean edo egunean letraren bat sartzerakoan, eta lookforflights botoari ematerakoan beheko botoian data txarto sartu dela adierazten du eta setEnabled *false*-ean jarri dut, botoiari emateko aukera blokeatzeko.  
+**
+Marroia konpontzeko 3h gutxi gora behera behar izan ditut. 
